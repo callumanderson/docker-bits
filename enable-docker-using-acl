@@ -1,0 +1,2 @@
+# Sometimes user manabement issues prevent you from adding your user to the dockder group - this is a way round it  :)
+sudo setfacl -m user:username:rw /var/run/docker.sock
